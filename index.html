@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
     <title>DevOps | Home</title>
     <link rel="shortcut icon" href="./Images/favicon/favicon.jpeg" type="image/x-icon">
@@ -13,19 +16,25 @@
 
 <body>
     <div class="main">
+
+
+        <!-- Navbar Section -->
         <div class="navbar">
             <div class="logo">
                 <img src="./Images/logo/devops-high-resolution-logo-color-on-transparent-background.png" alt="Logo">
             </div>
             <nav>
-                <a href="./index.html" class="active">Home</a>
-                <a href="./portfolio.html">Portfolio</a>
-                <a href="./about.html">About Us</a>
+                <a href="#main" class="active">Home</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">About Us</a>
                 <a href="./contact.html">Contact Us</a>
             </nav>
             <a href="./My Resume.pdf" target="_blank"><button>My Resume</button></a>
         </div>
-        <div class="infoContainer">
+
+
+        <!-- Main Section -->
+        <div class="infoContainer" id="main">
             <div class="info">
                 <h3>Hello, my name is</h3>
                 <h1>Muhammad <span>Nazim Ali</span></h1>
@@ -33,8 +42,46 @@
             </div>
         </div>
     </div>
-    <div class="about">
-        
+
+
+    <div class="portfolio" id="portfolio">
+        <h1>Portfolio</h1>
+        <div class="card-box">
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-info">
+                    <h1>Crossfit-X</h1>
+                    <p>A fully responsive website with good UI/UX</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-info"></div>
+            </div>
+            <div class="card">
+                <div class="card-img"></div>
+                <div class="card-info"></div>
+            </div>
+        </div>
+        <a href="#"><button>Visit</button></a>
+    </div>
+
+
+    <!-- About Section -->
+    <div class="about" id="about">
+        <h1>About Me</h1>
+        <div class="about-cont">
+            <div class="about-box" id="about-img">
+                <img src="./Images/me 1.jpg" alt="Profile" width="208px" height="301px">
+            </div>
+            <div class="about-box" id="about-info">
+                <h2>Web Developer</h2>
+                <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern
+                    websites, web services and online stores. My passion is to design digital user experiences through
+                    the bold interface and meaningful
+                    interactions.</p>
+            </div>
+        </div>
     </div>
 </body>
 
