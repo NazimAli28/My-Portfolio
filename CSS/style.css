@@ -7,6 +7,10 @@
     font-family: 'Roboto Slab', serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .main {
     height: 100vh;
     background-image: url(../Images/6963.jpg);
@@ -127,6 +131,7 @@ h3 {
 
 .portfolio h1 {
     padding: 20px 0px;
+    color: #699EEE;
 }
 
 .card-box {
@@ -134,33 +139,66 @@ h3 {
     justify-content: space-evenly;
     height: 70vh;
     width: 90vw;
+    background-color: #f3f3f3db;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px gray
 }
 
 .card {
     width: 30%;
-    border: 2px solid red;
+    border: 2px solid gray;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+.card:hover {
+    box-shadow: 2px 2px 6px gray;
+    transform: scale(1.01);  
 }
 
 .card-img {
     width: 100%;
     height: 40%;
-    border: 2px solid green;
+}
+
+.card-img img {
+    width: 365px;
+    height: 190px;
 }
 
 .card-info {
     width: 100%;
     height: 60%;
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.btn {
+    cursor: pointer;
+    background-color: rgb(105 158 238);
+    color: white;
+    border: 2px solid rgb(65, 134, 238);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    transition-duration: 0.2s;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    color: rgb(250, 151, 70);
+    background-color: rgba(218, 218, 218, 0);
+    border: 2px solid rgb(250, 151, 70);
+    border-radius: 10px;
+    transform: scale(1.08);
+}
+
 /* About Section */
 .about {
     height: 100vh;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,18 +207,20 @@ h3 {
 
 .about h1 {
     padding: 20px 0px;
+    color: #699EEE;
 }
 
 .about-cont {
     width: 90vw;
     height: 80vh;
-    border: 2px solid green;
     display: flex;
     flex-wrap: wrap;
+    background-color: #f3f3f3db;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px gray
 }
 
 .about-cont-box {
-    border: 2px solid brown;
     width: 50%;
     height: 301px;
     display: flex;
@@ -190,12 +230,6 @@ h3 {
 .about-cont-box img {
     border-radius: 0px 20px 0px 0px;
     box-shadow: 0px 0px 19px gray;
-}
-
-.skills {
-    border: 2px solid blue;
-    width: 100%;
-    height: 50%;
 }
 
 .personal-info {
@@ -208,4 +242,44 @@ h3 {
     flex-direction: column;
     line-height: 30px;
     padding: 8px;
+}
+
+#about-info {
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+}
+
+.skills {
+    width: 100%;
+    height: 50%;
+    padding: 30px 10px;
+}
+
+.skill-container {
+    width: 100%;
+    background: #ddd;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {
+    width: 60%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 40%;
+    background-color: #2196F3;
+}
+
+.php {
+    width: 20%;
+    background-color: #808080;
 }
