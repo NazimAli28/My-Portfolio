@@ -18,6 +18,7 @@ html {
     background-repeat: no-repeat;
 }
 
+/* Navbar Section */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -86,6 +87,7 @@ nav a.active {
     height: 90vh;
 }
 
+/* Main Section */
 .info {
     display: flex;
     flex-direction: column;
@@ -121,6 +123,7 @@ h3 {
     margin-right: 20px;
 }
 
+/* Portfolio Section */
 .portfolio {
     height: 100vh;
     display: flex;
@@ -150,9 +153,10 @@ h3 {
     transition-duration: 0.2s;
     border-radius: 10px;
 }
+
 .card:hover {
     box-shadow: 2px 2px 6px gray;
-    transform: scale(1.01);  
+    transform: scale(1.01);
 }
 
 .card-img {
