@@ -234,6 +234,7 @@ h3 {
 .about-cont-box img {
     border-radius: 0px 20px 0px 0px;
     box-shadow: 0px 0px 19px gray;
+    margin-top: -10px;
 }
 
 .personal-info {

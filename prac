@@ -1,0 +1,58 @@
+//"How to center a div in HTML?"
+if(!isset($_REQUEST['username'] || $_REQUEST['Firstname'] || $_REQUEST['Lastname'])){
+
+
+if(!isset($_REQUEST['username']) || !isset($_REQUEST['Firstname']) || !isset($_REQUEST['Lastname'])){
+
+
+
+
+for (int i = 1; i <= num; i++) {
+    if (i % 2 == 0) {
+        System.out.print("\n" + i + " Is Even");
+    } else {
+        System.out.print("\n" + i + " Is Odd");
+    }
+}
+
+
+public class EvenOdd {
+    public static void main(String[] args) {
+        // input
+        System.out.print("\nEnter a number less than 100: ");
+
+        // variable
+        int num = Expo.enterInt();
+
+        System.out.println();
+
+        // output
+        for (int i = 1; i <= num; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i + " Is Even");
+            } else {
+                System.out.println(i + " Is Odd");
+            }
+        }
+    }
+}
+
+
+
+<?php
+if (($a % 2) == 1)
+{ echo "$a is odd." ;}
+if (($a % 2) == 0)
+{ echo "$a is even." ;}
+?>
+
+
+
+const isOdd = (n) => (n & 1) === 1;
+
+const num = [1,2,3,4,5,6,7,8,9];
+
+console.log( `Odd numbers are ${ num.filter( n => isOdd(n))}` );
+console.log( `Even numbers are ${ num.filter( n => !isOdd(n))}`);
+
+
