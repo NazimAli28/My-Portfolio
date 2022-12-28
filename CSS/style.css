@@ -13,7 +13,7 @@ html {
 
 .main {
     height: 100vh;
-    background-image: url(../Images/6963.jpg);
+    background-image: url(../Images/main-bg-hd.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
