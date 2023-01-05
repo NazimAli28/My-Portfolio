@@ -9,24 +9,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>DevOps | Home</title>
+    <title>DevOps | M.Nazim Ali</title>
     <link rel="shortcut icon" href="./Images/favicon/favicon.jpeg" type="image/x-icon">
-    <script src="./JS/main.js"></script>
 </head>
 
 <body>
     <div class="main">
 
         <!-- Navbar Section -->
-        <div class="navbar">
+        <div id="navbar">
             <div class="logo">
                 <img src="./Images/logo/devops-high-resolution-logo-color-on-transparent-background.png" alt="Logo">
             </div>
             <nav>
-                <a href="#main" class="active">Home</a>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#about">About Us</a>
-                <a href="./contact.html">Contact Us</a>
+                <a href="#main" data-link="main">Home</a>
+                <a href="#portfolio" data-link="portfolio">Portfolio</a>
+                <a href="#about" data-link="about">About Us</a>
+                <a href="./contact.html" data-link="contact">Contact Us</a>
             </nav>
             <a href="./My Resume.pdf" target="_blank"><button>My Resume</button></a>
         </div>
@@ -34,18 +33,18 @@
         <!-- Mobile Navbar Section -->
 
         <!-- Main Section -->
-        <div class="infoContainer" id="main">
+        <section class="infoContainer" id="main">
             <div class="info">
                 <h3>Hello, my name is</h3>
                 <h1>Muhammad <span>Nazim Ali</span></h1>
                 <h2>I'm a Web Developer</h2>
             </div>
-        </div>
+        </section>
     </div>
 
 
     <!-- Portfolio Section -->
-    <div class="portfolio" id="portfolio">
+    <section class="portfolio" id="portfolio">
         <h1>Portfolio</h1>
         <div class="card-box">
             <div class="card">
@@ -83,11 +82,11 @@
             </div>
         </div>
         <!-- <a href="#"><button class="btn">Visit</button></a> -->
-    </div>
+    </section>
 
 
     <!-- About Section -->
-    <div class="about" id="about">
+    <section class="about" id="about">
         <h1>About Me</h1>
         <div class="about-cont">
             <div class="about-cont-box" id="img">
@@ -138,7 +137,8 @@
             </div>
 
         </div>
-    </div>
+    </section>
+    <script src="./JS/main.js"></script>
 </body>
 
 </html>

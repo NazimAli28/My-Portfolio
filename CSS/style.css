@@ -19,13 +19,15 @@ html {
 }
 
 /* Navbar Section */
-.navbar {
+#navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 8vh;
     position: fixed;
+    z-index: 10;
     width: 100%;
+    transition: background-color 0.5s ease;
 }
 
 .logo img {
@@ -53,13 +55,13 @@ nav a:hover {
     transform: scale(1.08);
 }
 
-nav a.active {
+#navbar nav a.active {
     color: rgb(250, 151, 70);
     text-decoration: underline;
     transform: scale(1.08);
 }
 
-.navbar button {
+#navbar button {
     cursor: pointer;
     margin-right: 15px;
     background-color: rgb(105 158 238);
@@ -72,7 +74,7 @@ nav a.active {
     transition-duration: 0.2s;
 }
 
-.navbar button:hover {
+#navbar button:hover {
     color: rgb(250, 151, 70);
     background-color: rgba(218, 218, 218, 0);
     border: 2px solid rgb(250, 151, 70);
