@@ -20,7 +20,7 @@ const navbar = document.getElementById('navbar');
 // function to check if element is in viewport
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
-    return (rect.top >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight));
+    return (rect.top >= 0 && rect.top <= (window.innerHeight || document.documentElement.clientHeight) / 4);
 }
 
 // add event listener for scroll event
