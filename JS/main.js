@@ -1,6 +1,6 @@
 window.addEventListener('scroll', function () {
     // code to change navbar color on scroll goes here
-    if (window.scrollY > 50) {
+    if (window.scrollY > 20) {
         document.getElementById('navbar').style.backgroundColor = '#bcd4f6e6';
     } else {
         document.getElementById('navbar').style.backgroundColor = 'transparent';
