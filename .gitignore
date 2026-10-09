@@ -1,0 +1,17 @@
+node_modules
+dist
+*.local
+.env*
+!.env.example
+.vercel
+.DS_Store
+assets-src
+test-results
+playwright-report
+
+# Local-only notes and helper scripts (not part of the site)
+CLAUDE.md
+knowledge-graph.md
+docs/
+.claude/
+scripts/
